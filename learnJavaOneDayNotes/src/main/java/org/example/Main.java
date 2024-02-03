@@ -1,8 +1,6 @@
 package org.example;
 import java.util.Arrays;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
 
@@ -54,6 +52,7 @@ public class Main {
         System.out.println("Sharif".substring(1, 4));
 
         System.out.printf("The answer for %.3f divided by %d is %.2f.", 5.45, 3, 5.45/3);
-        System.out.printf("\n%d", 12);
+        System.out.printf("\n%d\n", 12);
+        System.out.printf("%,d", 12345);
     }
 }
